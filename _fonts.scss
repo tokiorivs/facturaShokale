@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 700 ;
+    src:
+        local('Outfit'),
+        url('/fonts/Outfit-Bold.woff') format('woff'),
+        url('/fonts/Outfit-Bold.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 400;
+    src:
+        local('Outfit'),
+        url('/fonts/Outfit-Regular.woff') format('woff'),
+        url('/fonts/Outfit-Regular.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 800;
+    src:
+        local('Outfit'),
+        url('/fonts/Outfit-ExtraBold.woff') format('woff'),
+        url('/fonts/Outfit-ExtraBold.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: bold;
+    font-weight: bold ;
+    src:
+        local('Outfit'),
+        url('/fonts/Outfit-Bold.woff') format('woff'),
+        url('/fonts/Outfit-Bold.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: normal;
+    src:
+        local('Outfit'),
+        url('/fonts/Outfit-Regular.woff') format('woff'),
+        url('/fonts/Outfit-Regular.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 300;
+    src:
+        local('Outfit'),
+        url('/fonts/Outfit-Light.woff') format('woff'),
+        url('/fonts/Outfit-Light.ttf') format('truetype'),
+}
