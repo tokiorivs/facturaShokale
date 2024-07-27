@@ -41,14 +41,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.container {
   width: 827px;
   height: 1169px;
-  border: 1px solid #ccc;
   margin: 0 auto;
   padding-top: 20px;
+  background-image: url(/img/logo_fondo.png);
+  background-repeat: no-repeat;
+  background-position: center 330px;
+  background-size: 530px 381px;
 }
 
 .header {
@@ -153,17 +153,17 @@ body {
   border-top: 1px solid #1d1d1b;
 }
 
-.quotes {
+.comments {
   margin: 10px 0px;
 }
 
-.quotes__title {
+.comments__title {
   padding: 10px;
   border-radius: 5px;
   background-color: #acff01;
 }
 
-.quotes__content {
+.comments__content {
   max-height: 40px;
 }
 
