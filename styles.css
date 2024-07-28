@@ -42,9 +42,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 827px;
-  height: 1169px;
+  min-height: 1169px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 10px;
   background-image: url(/img/logo_fondo.png);
   background-repeat: no-repeat;
   background-position: center 330px;
@@ -107,7 +107,7 @@ body {
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px 10px;
-  grid-template-areas: "contact contact contact contact contact nit nit" "data data data data data condicions condicions";
+  grid-template-areas: "contact contact contact contact contact nit nit" "data data data data data conditions conditions";
 }
 
 .info__contact {
@@ -128,21 +128,33 @@ body {
   grid-area: nit;
 }
 
-.info__condicions {
-  grid-area: condicions;
+.info__conditions {
+  grid-area: conditions;
 }
 
 .table {
-  border-collapse: collapse;
-  width: 100%;
+  display: grid;
 }
-.table thead {
-  border-bottom: 1px solid #b1b3b6;
+.table thead tr {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 5px 0px;
 }
 .table tbody {
-  max-height: 300px;
-  height: 300px;
-  vertical-align: top;
+  min-height: 300px;
+}
+.table tbody tr {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 5px 0px;
+}
+.table tfoot tr {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 5px 0px;
 }
 
 .total {
